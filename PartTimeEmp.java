@@ -1,12 +1,8 @@
 package com.bridgelabz;
-
 public class PartTimeEmp {
-
-
-        static final int WAGE_PER_HOUR = 20;
+    static final int WAGE_PER_HOUR = 20;
         static final int Full_DAY_HOUR = 8;
         static final int PART_TIME_HOUR = 4;
-
         public void fullTime(){
             int dailyEmpWage;
             double attendance = Math.floor(Math.random() * 10) % 3;
